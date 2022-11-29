@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptiv.css">
+    <title>beauty.lab</title>
+</head>
+<body>
+
+    <div class="slider">
+
+        <div class="effects"></div>
+
+        <img class="container_logo" src="logo.png">
+        
+        <header class="container_header">
+
+            <div class ='conteiner_inscription'>
+
+                <img src="inscription.png" alt="logo" class="index_header_img">
+
+                <p>| eyelash studio</p>
+
+            </div>
+
+            <div class="navigation">
+
+                <label for="r1" class="bar color_bar" id="home" onclick="functionHome()">home</label>
+                <label for="r2" class="bar color_bar" id="services" onclick="functionServices()">services</label>
+                <label for="r3" class="bar color_bar" id="address" onclick="functionAddress()" >address</label>
+                <label for="r4" class="bar color_bar" id="make" onclick="functionMake()">make</label>
+
+            </div>
+        
+        </header>
+            
+        <div class="sliders">
+
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2" >
+            <input type="radio" name="r" id="r3" >
+            <input type="radio" name="r" id="r4" >
+
+            <div class="slide s1"><video class="video" src="fonvideo1.mp4" type="video/mp4" autoplay muted loop></video></div>
+            <div class="slide"><video class="video" src="fonvideo2.mp4" type="video/mp4" autoplay muted loop></video></div>
+            <div class="slide"><video class="video" src="fonvideo3.mp4" type="video/mp4" autoplay muted loop></video></div>
+            <div class="slide"><video class="video" src="fonvideo4.mp4" type="video/mp4" autoplay muted loop></video></div>
+
+            <div class="home_content">
+
+                <div class="content_conteiner anim_home">
+                    <h1 class="content_name anim_home">Home</h1>
+                    <h2 class="content_header anim_home">Студия наращивания ресниц</h2>
+                    <p class="content_subject anim_home">Привет, меня зовут Анастасия, и это моя студия наращивания ресниц: beauty.lab!
+                        Помимо красивых и качественных ресниц, ты так же получишь отличное настроение на весь день.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="services_content">
+
+                <div class="content_conteiner anim_services">
+                    <h1 class="content_name anim_services">Services</h1>
+                    <h2 class="content_header anim_services">Наши услуги</h2>
+                    <p class="content_subject anim_services">Я могу ебануть тебе охуенные реснички, 2D риснички, 3D риснички, какие только нахуй захочешь.
+                        Риснички звездочкой, бельичи или похуй лисичьи. А если ты заебалась носить реснички, то я могу отхуячить их вообще нахуй. Приходи.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="address_content">
+
+                <div class="content_conteiner anim_address">
+                    <h1 class="content_name anim_address">Adress</h1>
+                    <h2 class="content_header anim_address">Как нас найти</h2>
+                    <p class="content_subject anim_address">📍остановка театр кукол.   
+                        Проспект Октября 107Б  Доходите до вывески « 4 сезона» , там будет домафон, нажимаете просто цифру 1 и ждёте гудков, 
+                        я открою домафонную дверь, далее поднимитесь по лестнице и идёте прямо по коридору, я вас встречу там уже 😊
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="make_content">
+
+                <div class="content_conteiner anim_make">
+                    <h1 class="content_name anim_make">Make</h1>
+                    <h2 class="content_header anim_make">Записаться можно в нашем:</h2>
+                    <p class="content_subject anim_make">
+
+                        <a href="https://www.google.com/"><img src="instagram.png" alt="instagram" width="35" height="auto">instagram</a>
+
+                        <a href="https://instagram.com/muzalab.ufa"><img src="telegram.png" alt="telegram" width="35" height="auto">telegram</a>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="footer">
+
+            <img src="inscription.png" alt="logo" class="index_footer_img_logo">
+            <p>©2022</p>
+            
+            <div class="index_footer_social">
+
+                <div class="footer_social">
+
+                    <img src="instagram.png" alt="instagram" class="index_footer_img_social">
+                    <a href="https://www.google.com/">instagram</a>
+
+                </div>
+
+                <div class="footer_social">
+
+                    <img src="telegram.png" alt="telegram" class="index_footer_img_social">
+                    <a href="https://instagram.com/muzalab.ufa">telegram</a>
+
+                </div>
+
+            </div>
+            
+
+
+        </footer>
+
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

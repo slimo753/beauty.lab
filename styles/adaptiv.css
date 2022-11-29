@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1000px) {
+
+
+    * {
+
+       font-size: 10px;
+    }
+
+    .index_header_img {
+
+        /*Выравнивание по высоте*/
+        max-width: 80px;
+        max-height: auto;
+    
+    }
+
+    .bar {
+    
+        margin-left: 1%;
+        padding: 2%;
+        font-size: 12px;
+        
+    }
+
+    .conteiner_inscription p{
+
+        font-size: 12px;
+     
+     }
+
+     .conteiner_inscription {
+
+        position: absolute; 
+        display: flex;
+        /*Внутренние элементы в строку*/
+        flex-direction: row;
+         /*Выравнивание по цетру внутренних элементов*/
+        justify-content: center;
+        /*Выравнивание по высоте внутренних элементов*/
+        align-items: center;
+        white-space: nowrap;
+        height: auto;
+        width: auto;
+        left: 2%;
+    
+    }
+
+    /*################################## Контейнер текста Home анимация ##################################*/
+    .content_conteiner {
+
+        background: linear-gradient(rgba(244,246,245,0.0), rgba(52, 52, 164, 0.3));
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        z-index: 2;
+        min-width: 300px;
+        max-height: auto;
+        border-radius: 10px;
+        padding: 2%;
+    
+        transform: translate(-80%, 400%);
+        opacity: 0;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .content_conteiner.active {
+    
+        background: linear-gradient(rgba(244,246,245,0.0), rgb(57, 57, 140));
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        min-width: 300px;
+        max-height: auto;
+        border-radius: 10px;
+        padding: 2%;
+        margin: 2%;
+    
+        opacity: 1;
+    }
+    .content_name {
+
+        margin: 0px 0px 3% 0px;
+        font-size: 50px;
+        white-space: nowrap;
+
+        transform: translate(0%, 400%);
+        opacity: 0;
+        transition: all 0.s ease 0s;
+    }
+
+    .content_name.active {
+
+        margin: 0px 0px 3% 0px;
+        font-size: 50px;
+        
+
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
+    .content_header {
+
+        margin: 0px 0px 2% 0px;
+        font-size: 80px;
+
+        transform: translate(0%, 400%);
+        opacity: 0;
+        transition: all 0.6s ease 0s;
+    }
+
+    .content_header.active {
+
+        margin: 0px 0px 2% 0px;
+        font-size: 40px;
+        
+
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
+    .content_subject {
+
+        margin: 0px 0px 2% 0px;
+        font-size: 16px;
+
+        transform: translate(0%, 400%);
+        opacity: 0;
+        transition: all 0.9s ease 0s;
+    }
+
+    .content_subject.active {
+
+        margin: 0px 0px 2% 0px;
+        font-size: 16px;
+
+        transform: translate(0%, 0%);
+        opacity: 1;
+    }
+
+}
