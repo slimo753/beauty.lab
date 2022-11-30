@@ -34,7 +34,7 @@ function functionHome() {
     removeColor()
 
     let colorElement = document.getElementById('home')
-    colorElement.style.background = "rgba(57, 57, 140, 0.4)"
+    colorElement.style.background = "rgba(36, 97, 81, 0.4)"
     colorElement.style.borderRadius = "5px"
 
     putAway()
@@ -58,7 +58,7 @@ function functionServices() {
     removeColor()
 
     let colorElement = document.getElementById('services')
-    colorElement.style.background = "rgba(57, 57, 140, 0.4)"
+    colorElement.style.background = "rgba(36, 97, 81, 0.4)"
     colorElement.style.borderRadius = "5px"
 
     putAway()
@@ -82,7 +82,7 @@ function functionAddress() {
     removeColor()
 
     let colorElement = document.getElementById('address')
-    colorElement.style.background = "rgba(57, 57, 140, 0.4)"
+    colorElement.style.background = "rgba(36, 97, 81, 0.4)"
     colorElement.style.borderRadius = "5px"
 
     putAway()
@@ -106,7 +106,7 @@ function functionMake() {
     removeColor()
 
     let colorElement = document.getElementById('make')
-    colorElement.style.background = "rgba(57, 57, 140, 0.4)"
+    colorElement.style.background = "rgba(36, 97, 81, 0.4)"
     colorElement.style.borderRadius = "5px"
 
     putAway()
