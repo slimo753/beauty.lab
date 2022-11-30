@@ -31,10 +31,10 @@ function removeColor() {
 
 function functionHome() {
 
-    let photoElement = document.getElementById('photo-home')
-    photoElement.style.transform = 'scale(1.1)'
-    photoElement.style.overflow = 'hidden'
-    photoElement.style.transition = 'transform 1s'
+    // let photoElement = document.getElementById('photo-home')
+    // photoElement.style.transform = 'scale(1.1)'
+    // photoElement.style.overflow = 'hidden'
+    // photoElement.style.transition = 'transform 1s'
 
     removeColor()
 
@@ -60,10 +60,10 @@ function functionHome() {
 
 function functionServices() {
 
-    let photoElement = document.getElementById('photo-services')
-    photoElement.style.transform = 'scale(1.1)'
-    photoElement.style.overflow = 'hidden'
-    photoElement.style.transition = 'transform 1s'
+    // let photoElement = document.getElementById('photo-services')
+    // photoElement.style.transform = 'scale(1.1)'
+    // photoElement.style.overflow = 'hidden'
+    // photoElement.style.transition = 'transform 1s'
 
     removeColor()
 
@@ -89,10 +89,10 @@ function functionServices() {
 
 function functionAddress() {
 
-    let photoElement = document.getElementById('photo-address')
-    photoElement.style.transform = 'scale(1.1)'
-    photoElement.style.overflow = 'hidden'
-    photoElement.style.transition = 'transform 1s'
+    // let photoElement = document.getElementById('photo-address')
+    // photoElement.style.transform = 'scale(1.1)'
+    // photoElement.style.overflow = 'hidden'
+    // photoElement.style.transition = 'transform 1s'
 
     removeColor()
 
@@ -118,10 +118,10 @@ function functionAddress() {
 
 function functionMake() {
 
-    let photoElement = document.getElementById('photo-make')
-    photoElement.style.transform = 'scale(1.1)'
-    photoElement.style.overflow = 'hidden'
-    photoElement.style.transition = 'transform 1s'
+    // let photoElement = document.getElementById('photo-make')
+    // photoElement.style.transform = 'scale(1.1)'
+    // photoElement.style.overflow = 'hidden'
+    // photoElement.style.transition = 'transform 1s'
 
     removeColor()
 
